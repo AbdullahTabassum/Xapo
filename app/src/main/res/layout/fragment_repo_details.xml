@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/repoName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="repo name"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/repoDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="repo DEtails"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repoName"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/repoForks"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="repo forks"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/repoDetails"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        />
+
+</android.support.constraint.ConstraintLayout >
