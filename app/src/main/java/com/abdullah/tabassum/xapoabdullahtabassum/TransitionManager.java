@@ -4,11 +4,12 @@ package com.abdullah.tabassum.xapoabdullahtabassum;
  * Created by mac on 2018-02-06.
  */
 
-import android.arch.lifecycle.ViewModel;
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.app.FragmentActivity;
+
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.view.RepoDetailsFragment;
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.view.TrendingRepositoriesFragment;
 
 /**
  * This class is responsible for manging transitions between the detail and list fragments

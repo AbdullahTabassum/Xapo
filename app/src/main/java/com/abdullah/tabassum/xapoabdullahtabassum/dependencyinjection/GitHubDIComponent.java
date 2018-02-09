@@ -1,8 +1,8 @@
 package com.abdullah.tabassum.xapoabdullahtabassum.dependencyinjection;
 
-import com.abdullah.tabassum.xapoabdullahtabassum.GitHubRepoDataManager;
-import com.abdullah.tabassum.xapoabdullahtabassum.RepoDetailsViewModel;
-import com.abdullah.tabassum.xapoabdullahtabassum.TrendingReposViewModel;
+import com.abdullah.tabassum.xapoabdullahtabassum.datamanagement.GitHubRepoDataManager;
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.viewmodel.RepoDetailsViewModel;
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.viewmodel.TrendingReposViewModel;
 
 import javax.inject.Singleton;
 

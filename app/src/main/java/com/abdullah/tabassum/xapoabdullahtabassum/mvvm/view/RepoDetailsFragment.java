@@ -1,4 +1,4 @@
-package com.abdullah.tabassum.xapoabdullahtabassum;
+package com.abdullah.tabassum.xapoabdullahtabassum.mvvm.view;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.Observer;
@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.R;
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.viewmodel.RepoDetailsViewModel;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
 
 public class RepoDetailsFragment extends Fragment {

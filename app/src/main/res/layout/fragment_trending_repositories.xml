@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.abdullah.tabassum.xapoabdullahtabassum.TrendingRepositoriesFragment"
+    tools:context="com.abdullah.tabassum.xapoabdullahtabassum.mvvm.view.TrendingRepositoriesFragment"
     tools:showIn="@layout/activity_trending_repositories">
 
     <!--<TextView

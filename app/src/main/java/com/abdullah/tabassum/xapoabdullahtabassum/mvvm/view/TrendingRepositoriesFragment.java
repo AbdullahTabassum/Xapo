@@ -1,4 +1,4 @@
-package com.abdullah.tabassum.xapoabdullahtabassum;
+package com.abdullah.tabassum.xapoabdullahtabassum.mvvm.view;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.Observer;
@@ -12,6 +12,11 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.OnRepoSelected;
+import com.abdullah.tabassum.xapoabdullahtabassum.R;
+import com.abdullah.tabassum.xapoabdullahtabassum.TrendingReposAdapter;
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.viewmodel.TrendingReposViewModel;
+import com.abdullah.tabassum.xapoabdullahtabassum.mvvm.view.TrendingRepositories;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
 
 import java.util.ArrayList;

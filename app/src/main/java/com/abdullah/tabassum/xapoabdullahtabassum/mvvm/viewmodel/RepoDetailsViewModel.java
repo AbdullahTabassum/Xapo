@@ -1,8 +1,10 @@
-package com.abdullah.tabassum.xapoabdullahtabassum;
+package com.abdullah.tabassum.xapoabdullahtabassum.mvvm.viewmodel;
 
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.ViewModel;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.datamanagement.GitHubRepoDataManager;
+import com.abdullah.tabassum.xapoabdullahtabassum.GitRepoApplication;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
 
 import javax.inject.Inject;

@@ -1,7 +1,8 @@
-package com.abdullah.tabassum.xapoabdullahtabassum;
+package com.abdullah.tabassum.xapoabdullahtabassum.datamanagement;
 
 import android.arch.lifecycle.LiveData;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.GitRepoApplication;
 import com.abdullah.tabassum.xapoabdullahtabassum.connections.GitHubAPI;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubDatabase;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
