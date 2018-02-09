@@ -7,6 +7,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
+
 import java.util.List;
 
 import static android.content.ContentValues.TAG;

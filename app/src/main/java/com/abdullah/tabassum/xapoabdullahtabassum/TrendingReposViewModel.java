@@ -3,6 +3,8 @@ package com.abdullah.tabassum.xapoabdullahtabassum;
 import android.arch.lifecycle.LiveData;
 import android.arch.lifecycle.ViewModel;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
+
 import java.util.List;
 
 import javax.inject.Inject;

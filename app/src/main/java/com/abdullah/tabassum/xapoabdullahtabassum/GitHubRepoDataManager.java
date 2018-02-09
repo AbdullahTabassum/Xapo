@@ -4,6 +4,7 @@ import android.arch.lifecycle.LiveData;
 
 import com.abdullah.tabassum.xapoabdullahtabassum.connections.GitHubAPI;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubDatabase;
+import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
 
 import java.util.List;
 import java.util.concurrent.Executor;

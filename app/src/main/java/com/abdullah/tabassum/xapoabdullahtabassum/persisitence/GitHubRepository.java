@@ -1,4 +1,4 @@
-package com.abdullah.tabassum.xapoabdullahtabassum;
+package com.abdullah.tabassum.xapoabdullahtabassum.persisitence;
 
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;

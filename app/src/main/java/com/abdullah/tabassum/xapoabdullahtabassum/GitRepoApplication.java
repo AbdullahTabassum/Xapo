@@ -3,6 +3,9 @@ package com.abdullah.tabassum.xapoabdullahtabassum;
 import android.app.Application;
 import android.content.Context;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.dependencyinjection.GitHubDIComponent;
+import com.abdullah.tabassum.xapoabdullahtabassum.dependencyinjection.TrendingReposDIModule;
+
 /**
  * Created by mac on 2018-02-07.
  */
@@ -28,6 +31,6 @@ public class GitRepoApplication extends Application {
     }
 
     protected GitHubDIComponent buildComponent() {
-        return DaggerGitHubDIComponent.builder().trendingReposDIModule(new TrendingReposDIModule()).build();
+        return com.abdullah.tabassum.xapoabdullahtabassum.dependencyinjection.DaggerGitHubDIComponent.builder().trendingReposDIModule(new TrendingReposDIModule()).build();
     }
 }

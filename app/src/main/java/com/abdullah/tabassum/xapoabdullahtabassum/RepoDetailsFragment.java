@@ -11,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
+
 public class RepoDetailsFragment extends Fragment {
 
     int repoId;

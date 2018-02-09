@@ -1,6 +1,6 @@
 package com.abdullah.tabassum.xapoabdullahtabassum.connections;
 
-import com.abdullah.tabassum.xapoabdullahtabassum.GitHubRepository;
+import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubRepository;
 
 import java.util.List;
 
