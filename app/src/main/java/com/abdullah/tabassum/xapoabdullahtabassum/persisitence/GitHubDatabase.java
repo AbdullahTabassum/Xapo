@@ -12,8 +12,4 @@ import com.abdullah.tabassum.xapoabdullahtabassum.GitHubRepository;
 @Database(entities = {GitHubRepository.class}, version = 1)
 public abstract class GitHubDatabase extends RoomDatabase{
     public abstract RepoDao repoDao();
-
-    //usage
-    //AppDatabase db = Room.databaseBuilder(getApplicationContext(),
-    //AppDatabase.class, "database-name").build();
 }

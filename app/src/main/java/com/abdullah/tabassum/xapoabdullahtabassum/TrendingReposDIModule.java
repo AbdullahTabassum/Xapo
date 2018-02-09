@@ -3,6 +3,7 @@ package com.abdullah.tabassum.xapoabdullahtabassum;
 import android.arch.persistence.room.Room;
 import android.support.annotation.NonNull;
 
+import com.abdullah.tabassum.xapoabdullahtabassum.connections.GitHubAPI;
 import com.abdullah.tabassum.xapoabdullahtabassum.persisitence.GitHubDatabase;
 import com.abdullah.tabassum.xapoabdullahtabassum.threading.DirectExecutor;
 
